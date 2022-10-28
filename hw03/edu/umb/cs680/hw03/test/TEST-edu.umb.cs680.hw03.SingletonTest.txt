@@ -1,0 +1,4 @@
+Testcase: edu.umb.cs680.hw03.SingletonTest
+Test: testInst_not_null() took 15 milli sec(s)
+Test: test_equal_hashvalues() took 5 milli sec(s)
+Tests run: 2, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 38 milli sec(s)
