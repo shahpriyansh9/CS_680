@@ -1,0 +1,71 @@
+package edu.umb.cs680.hw01;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+
+
+public class PrimeGeneratortest {
+
+    @Test
+    public void Primes1to5() {
+        PrimeGenerator G1 = new PrimeGenerator(1, 5);
+        G1.generatePrimes();
+        Long[] expectedPrimes = {2L, 3L, 5L};
+        assertArrayEquals( expectedPrimes, G1.getPrimes().toArray() );
+    }
+
+    @Test
+    public void primeGenerator36to46() {
+        PrimeGenerator G1 = new PrimeGenerator(36, 46);
+        G1.generatePrimes();
+        Long[] expectedPrimes = {37L, 41L, 43L};
+        assertArrayEquals( expectedPrimes, G1.getPrimes().toArray() );
+    }
+    @Test
+    public void negativenums()
+    {  /* negative numbers test */
+        try {
+            PrimeGenerator G1 = new PrimeGenerator(-9,7);
+        }
+        catch(Exception e) {
+            assertEquals("Wrong input values: from=-9 to=7" ,e.getMessage());
+        }
+    }
+    @Test
+    public void primeGenerator5to5() {
+        long from = 5;
+        long to = 5;
+        try{
+
+            PrimeGenerator G1 = new PrimeGenerator(from, to);
+            G1.generatePrimes();
+            Long[] expectedPrimes = {};
+            assertArrayEquals( expectedPrimes, G1.getPrimes().toArray() );
+        }
+        catch(RuntimeException ex){
+            assertEquals("Wrong input values: from=" + from + " to=" + to,ex.getMessage());
+            //System.out.println(ex.getMessage());
+        }
+
+    }
+
+    @Test
+    public void primeGenerator50to10() {
+        long from = 50;
+        long to = 10;
+        try{
+
+            PrimeGenerator G1 = new PrimeGenerator(from, to);
+            G1.generatePrimes();
+            Long[] expectedPrimes = {};
+            assertArrayEquals( expectedPrimes, G1.getPrimes().toArray() );
+        }
+        catch(RuntimeException ex){
+            assertEquals("Wrong input values: from=" + from + " to=" + to,ex.getMessage());
+            //System.out.println(ex.getMessage());
+        }
+
+    }
+
+}
