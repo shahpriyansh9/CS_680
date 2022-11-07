@@ -1,0 +1,6 @@
+Testcase: edu.umb.cs680.hw05.SecurityContextTest
+Test: instanceofEncryptedString() took 31 milli sec(s)
+Test: testLoggedOutState() took 0 milli sec(s)
+Test: instanceofLggedInisnotnull() took 16 milli sec(s)
+Test: instanceofLoggedOutisnotnull() took 0 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 63 milli sec(s)
