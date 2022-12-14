@@ -1,0 +1,5 @@
+Testcase: edu.umb.cs680.hw09.FileSystemTest
+Test: verify_homeDir() took 0 milli sec(s)
+Test: verify_binDir() took 0 milli sec(s)
+Test: verify_rootDir() took 0 milli sec(s)
+Tests run: 3, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 0 milli sec(s)

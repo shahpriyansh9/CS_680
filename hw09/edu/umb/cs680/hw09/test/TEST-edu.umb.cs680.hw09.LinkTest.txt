@@ -1,0 +1,9 @@
+Testcase: edu.umb.cs680.hw09.LinkTest
+Test: isTestDirectoryWithE() took 1 milli sec(s)
+Test: verifyLinkCreationTime() took 1 milli sec(s)
+Test: verifyLinkTarget() took 0 milli sec(s)
+Test: isTestLinkWithD() took 0 milli sec(s)
+Test: isTestFileWithE() took 0 milli sec(s)
+Test: verifyLinkName() took 1 milli sec(s)
+Test: verifyLinkSize() took 1 milli sec(s)
+Tests run: 7, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 11 milli sec(s)
