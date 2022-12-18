@@ -1,0 +1,6 @@
+Testcase: edu.umb.cs680.hw11.DistanceTest
+Test: VerifygetP1P2AndManhattan() took 5 milli sec(s)
+Test: VerifygetP1P2AndChebyshev() took 4 milli sec(s)
+Test: VerifygetP1P2AndEuclidean() took 1 milli sec(s)
+Test: TestGetP1P2() took 0 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 10 milli sec(s)
