@@ -1,0 +1,10 @@
+Testcase: edu.umb.cs680.hw10.DirectoryTest
+Test: appendChildWithRootTest() took 16 milli sec(s)
+Test: isTestLinkWithRoot() took 0 milli sec(s)
+Test: verifyRootDirGetChildren() took 0 milli sec(s)
+Test: testIsActive() took 15 milli sec(s)
+Test: appendChildTestWithRoot() took 0 milli sec(s)
+Test: verifySubDirectories() took 0 milli sec(s)
+Test: isTestFileWithRoot() took 0 milli sec(s)
+Test: isTestDirectoryWihRoot() took 0 milli sec(s)
+Tests run: 8, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 63 milli sec(s)
