@@ -1,0 +1,7 @@
+Testcase: edu.umb.cs680.hw12.ParetoComparatorTest
+Test: compareTest1() took 5 milli sec(s)
+Test: compareTest2() took 4 milli sec(s)
+Test: paretoComparatorTest3() took 0 milli sec(s)
+Test: verifyDominationCountForC1() took 0 milli sec(s)
+Test: verifyDominationCountForC2() took 0 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 9 milli sec(s)

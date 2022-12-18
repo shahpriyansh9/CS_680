@@ -1,0 +1,6 @@
+Testcase: edu.umb.cs680.hw12.MileageComparatorTest
+Test: verifyMileageComparator_HighToLow() took 22 milli sec(s)
+Test: MileageComparatorTest1() took 0 milli sec(s)
+Test: MileageComparatorTest2() took 0 milli sec(s)
+Test: verifyMileageComparator_LowToHigh() took 5 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 47 milli sec(s)
